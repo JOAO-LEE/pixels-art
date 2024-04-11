@@ -29,7 +29,6 @@ divMaker()
     fourthColor.style.backgroundColor = '#17c3b2';
 // 8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta faz com que o pixel seja preenchido com a cor selecionada.
 function pickColor(event){
-    // firstColor =     event.target.attributes.style.value.toString().split(':')[1].slice(0, -1)
     let selectionColor = document.querySelector('.selected')
     let selectedBg = selectionColor.style.backgroundColor
     let dart = event.target

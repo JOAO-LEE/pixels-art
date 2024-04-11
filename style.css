@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #title {
-background-color: black;
+    background-color: black;
     color: white;
     text-align: center;
 }
@@ -21,22 +21,9 @@ background-color: black;
     border: 1px solid black;
     display: inline-block;
 }
-/* .color {
-    
-} */
-/* #colors1 {
-    background-color: #ffcb77;
-}
-#colors2 {
-    background-color: #fe6d73;
-}
-#colors3 {
-    background-color: #17c3b2;
-} */
 #pixel-board {
     width: 210px;
     height: 225px;
-    /* background-color:#d3d0cb; */
     border: 1.5px dotted black;
 }
 .pixel {
